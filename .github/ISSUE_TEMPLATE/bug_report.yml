@@ -1,0 +1,48 @@
+name: Bug Report
+description: Report a problem with the Docker image
+title: "bug: "
+labels: ["bug", "triage"]
+body:
+  - type: input
+    id: image_version
+    attributes:
+      label: Image version / tag
+      placeholder: e.g. 20261001
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: A clear description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. docker run ...
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        - OS: Ubuntu 24.04
+        - Docker version: 27.x
+        - Architecture: amd64
+    validations:
+      required: true
