@@ -6,10 +6,7 @@ Images are built for `linux/amd64` and `linux/arm64`, run as a non-root user and
 
 ## Images
 
-| Registry | Image |
-|---|---|
-| GitHub Container Registry (primary) | `ghcr.io/think-cube/ansible` |
-| Docker Hub (mirror) | `docker.io/thinkcubedev/ansible` |
+Images are published to GitHub Container Registry as `ghcr.io/think-cube/ansible`.
 
 | Tag | Meaning | Changes? |
 |---|---|---|
