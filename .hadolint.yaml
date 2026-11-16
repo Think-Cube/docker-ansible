@@ -1,0 +1,3 @@
+ignored:
+  # apt packages come from a digest-pinned base and are refreshed by the weekly rebuild.
+  - DL3008
