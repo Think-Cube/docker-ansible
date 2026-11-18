@@ -1,5 +1,1 @@
 blank_issues_enabled: false
-contact_links:
-  - name: Discussion
-    url: https://github.com/Think-Cube/docker-ansible/discussions
-    about: General questions, ideas, and feedback

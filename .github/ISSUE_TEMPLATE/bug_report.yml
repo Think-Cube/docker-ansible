@@ -7,7 +7,7 @@ body:
     id: image_version
     attributes:
       label: Image version / tag
-      placeholder: e.g. 20261001
+      placeholder: e.g. 2.0.0
     validations:
       required: true
 
