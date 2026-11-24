@@ -18,7 +18,7 @@ jobs:
       contents: read
       id-token: write
       packages: write
-    uses: Think-Cube/workflows/.github/workflows/container-image.yml@v1.0.0
+    uses: Think-Cube/workflows/.github/workflows/container-image.yml@v1.2.0
     with:
       image-name: ansible
     secrets:
